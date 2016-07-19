@@ -16,4 +16,4 @@ The `algos.c` file contains implementations of each shortest path function.
 The code in this directory was largely written by me except for some functions
 which are explicitly identified in the source code.
 
-This code is known to work on Linux when built with GCC 4.8.3 and 6.1.1.
+This code is known to work on Linux when built with GCC 4.8.3 or 6.1.1.
