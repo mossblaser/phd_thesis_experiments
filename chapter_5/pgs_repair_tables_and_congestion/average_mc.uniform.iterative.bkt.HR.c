@@ -705,6 +705,10 @@ void mark(){
 
 
 /**
+* XXX: Hacked for the purposes of this experiment: Always 'succeeds' in
+* creating a route even if a fault is encountered. The 'last' argument is
+* forced to 'true'.
+*
 * checks whether a greedy oblivious route can be created and if so, creates it.
 * sx, sy: source coordinates.
 * hx, hy, hw: hops per dimension.
@@ -721,7 +725,12 @@ long check(long sx, long sy, long hx, long hy, long hw, long d0, bool last){
 	long px,py;	// coordinates of a proxy.
 	long hop_copy;
 	bool last_proxy;
-
+	
+	// XXX: For this experiment, routes are always inserted regardless of faults
+	// so this forces us to insert broken routes on all tries not just the last
+	// one...
+	last = true;
+	
 	h[0]=hx;
 	h[1]=hy;
 	h[2]=hw;

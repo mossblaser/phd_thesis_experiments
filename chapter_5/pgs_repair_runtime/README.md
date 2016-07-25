@@ -13,6 +13,12 @@ Usage (cluster):
 
     $ ./run_experiment.sh -N NODE_FILE
 
+To process the results  into a more useful form (producing
+`routing-timing-processed.csv`, used by my thesis' plotting scripts):
+
+    $ gunzip output.csv.gz
+    $ Rscript process.R
+
 This experiment will take a long time to run and is probably not practical to
 run on a single machine. The ['clstr'](https://github.com/mossblaser/clstr)
 cluster management tool can be used to run the experiment across many machines.
