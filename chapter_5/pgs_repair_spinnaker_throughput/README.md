@@ -18,5 +18,6 @@ the experiment across many machines.
 
 This code is known to work on Linux using:
 
+* Python v3.5.1
 * `rig` v2.1.1
 * `network_tester` v1.0.1

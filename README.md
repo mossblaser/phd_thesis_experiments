@@ -19,7 +19,6 @@ Experiment scripts
   - [PGS-repair SpiNNaker throughput](./chapter_5/pgs_repair_spinnaker_throughput/)
 * Chapter 6: Placing applications in large SpiNNaker machines
   - [Cost function comparison](./chapter_6/cost_function_comparison/)
-  - [Application benchmark netlists](./chapter_6/benchmark_netlists/)
   - [Application benchmark placement performance](./chapter_6/benchmark_placement/)
   - [Nengo SpiNNaker 'CConv' test](./chapter_6/nengo_cconv_test/)
   - [Nengo SpiNNaker 'Parse' test](./chapter_6/nengo_parse_test/)
