@@ -20,9 +20,7 @@ Experiment scripts
 * Chapter 6: Placing applications in large SpiNNaker machines
   - [Cost function comparison](./chapter_6/cost_function_comparison/)
   - [Application benchmark placement performance](./chapter_6/benchmark_placement/)
-  - [Nengo SpiNNaker 'CConv' test](./chapter_6/nengo_cconv_test/)
-  - [Nengo SpiNNaker 'Parse' test](./chapter_6/nengo_parse_test/)
-  - [Circuit Simulator 'MU0' test](./chapter_6/circuit_sim_mu0_test/)
+  - [Nengo SpiNNaker experiments](./chapter_6/nengo_spinnaker_test/)
   - [Placement algorithm scalability](./chapter_6/scalability/)
 
 
