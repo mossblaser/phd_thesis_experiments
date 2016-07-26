@@ -2,8 +2,8 @@ PGS-repair routing table usage and congestion
 =============================================
 
 The experiment from section 5.3.5 and 5.3.6 in my thesis which measures the
-runtime cost of PGS repair when routing under various fault rates, traffic
-patterns and fault patterns.
+routing table usage and congestion produced by the PGS repair router when
+routing under various fault rates, traffic patterns and fault patterns.
 
 Usage (local):
 
